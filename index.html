@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Burger Restoran web sitesi</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--! header section start -->
+    <header class="header">
+      <a href="" class="logo">
+        <img src="images/logo.png" alt="logo" />
+      </a>
+      <nav class="navbar">
+        <a href="#home" class="active">Ana Sayfa</a>
+        <a href="#menu">Menü</a>
+        <a href="#products">Özel Ürünler</a>
+        <a href="#about">Hakkında</a>
+        <a href="#review">İnceleme</a>
+        <a href="#contact">İletişim</a>
+        <a href="#blog">Bloglar</a>
+      </nav>
+      <div class="buttons">
+        <button id="search-btn"><i class="fas fa-search"></i></button>
+        <button id="cart-btn"><i class="fa-solid fa-cart-shopping"></i></button>
+        <button id="navbar-btn"><i class="fa-solid fa-burger"></i></button>
+      </div>
+      <div class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          id="search-box"
+          placeholder="arama"
+        />
+        <i class="fas fa-search"></i>
+      </div>
+      <div class="cart-item-container">
+        <div class="cart-item">
+          <img src="images/menu1.jpg" alt="menu" />
+          <div class="content">
+            <h3>Ohannes Lebowski Burger Menü</h3>
+            <div class="price">289₺</div>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="cart-item">
+          <img src="images/menu2.jpg" alt="menu" />
+          <div class="content">
+            <h3>Springtime Burger Menü</h3>
+            <div class="price">239₺</div>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="cart-item">
+          <img src="images/menu3.jpg" alt="menu" />
+          <div class="content">
+            <h3>Cheesy Beast Burger Menü</h3>
+            <div class="price">269₺</div>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="cart-item">
+          <img src="images/menu4.jpg" alt="menu" />
+          <div class="content">
+            <h3>Ohannes Cripsy Burger Menü</h3>
+            <div class="price">209₺</div>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <a href="#" class="btn">Siparişi onayla</a>
+      </div>
+    </header>
+    <!--! header section end -->
+
+    <!-- ! home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>EŞSİZ LEZZET DENEYİMİ</h3>
+        <p>
+          Özgün lezzetleri, özel mutfağı ve dekorasyonuyla genel lezzet ve
+          şıklığı bir arada sunuyoruz.
+        </p>
+        <a href="#" class="btn">Şimdi Sipariş Ver</a>
+      </div>
+    </section>
+    <!-- ! home section end -->
+
+    <!-- ! menu section start -->
+    <section class="menu" id="menu">
+      <h1 class="heading">Menülerimiz</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu1.jpg" alt="menu1" />
+            <div><span class="menu-category">STEAK</span></div>
+            <h3>OHANNES LEBOWSKI BURGER</h3>
+            <div class="price">289₺ <span>359₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu2.jpg" alt="menu1" />
+            <div><span class="menu-category">CHICKEN</span></div>
+            <h3>SPRINGTIME BURGER</h3>
+            <div class="price">239₺ <span>309₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu3.jpg" alt="menu1" />
+            <div><span class="menu-category">STEAK</span></div>
+            <h3>CHEESY BEAST BURGER</h3>
+            <div class="price">269₺ <span>339₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu4.jpg" alt="menu1" />
+            <div><span class="menu-category">CHICKEN</span></div>
+            <h3>OHANNES CRISPY BURGER</h3>
+            <div class="price">209₺ <span>279₺ </span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="" class="btn">Sepete Ekle</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! menu section end -->
+
+    <!-- ! products section start -->
+    <section class="products" id="products">
+      <h1 class="heading">Özel Ürünlerimiz</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Chef Bruno</span>
+            <h1 class="name">VEGGIE BURGER</h1>
+          </div>
+          <div class="image">
+            <img src="images/product1.png" alt="product" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">249₺</b>
+              <span class="amount"> 130gr/320kal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Chef Alex</span>
+            <h1 class="name">BİFTEK'S DARK BURGER</h1>
+          </div>
+          <div class="image">
+            <img src="images/product2.png" alt="product" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">299₺</b>
+              <span class="amount"> 140gr/500kal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <span class="title">Chef Zeynep</span>
+            <h1 class="name">SMASH BURGER</h1>
+          </div>
+          <div class="image">
+            <img src="images/product3.png" alt="product" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">299₺</b>
+              <span class="amount"> 145gr/510kal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! products section end -->
+
+    <!-- !about us start -->
+    <section class="about" id="about">
+      <h1 class="heading">Hakkımızda</h1>
+      <div class="row">
+        <div class="image">
+          <img src="images/about.png" alt="about" />
+        </div>
+        <div class="content">
+          <h3>%100 EL YAPIMI BURGER</h3>
+          <p>
+            Cooking’e hoşgeldiniz. Burada hamburgerler, patatesler ve köfteler
+            her zaman sıcak, taze ve siparişten sonra yapılır.
+          </p>
+          <p>
+            Yediğiniz en iyi burgeri yapmak için burdayız. Tereyağlı brioche
+            ekmeği, özel %100 yerli dana köftesi, taze malzemelerden üretilen
+            günlük efsane soslar ve sıcacık patates kızartmalarından
+            bahsediyoruz.
+          </p>
+          <p>
+            Taze olduğumuz kadar eğlenceli, zeki olduğumuz kadar yaratıcı,
+            seçici olduğumuz kadar da oyuncuyuz.
+          </p>
+          <a href="#" class="btn">Daha Fazla</a>
+        </div>
+      </div>
+    </section>
+    <!-- !about us end -->
+
+    <!-- ! Review Start -->
+    <section class="review" id="review">
+      <h1 class="heading">Müşteri Yorumları</h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="./images/quote.png" alt="quate" />
+          <p>
+            Hep önünden geçerdik ve yoğun olduğunu görürdük bugün gidip yiyelim
+            dedik. Gerçekten çoooook lezzetli ve özenli bir yemek aldık. Bol
+            patates özel sos la geliyor.
+          </p>
+          <img src="images/avatar1.png" alt="user" class="user" />
+          <h3>Aleyna Çengelli</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/quote.png" alt="quate" />
+          <p>
+            Güzel bir hamburger yemek isterseniz uğrayın. Zincir hamburger
+            markalarından 10 kat daha lezzetli ve doyurucu. Köfteyi biraz daha
+            renklendirmeliler.
+          </p>
+          <img src="images/avatar2.png" alt="user" class="user" />
+          <h3>Fehmi Adıgüzel</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+        </div>
+        <div class="box">
+          <img src="./images/quote.png" alt="quate" />
+          <p>
+            Antalya’nın en iyi hamburgeri. Hatta daha iyi bir burger yemedim
+            öyle diyim. Ekmeği diğer ekmeklerden farklı. Tüm lezzetlerini
+            denemenizi öneririm.
+          </p>
+          <img src="images/avatar3.png" alt="user" class="user" />
+          <h3>Sedef Tekçe</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! Review End -->
+
+    <!-- !contact start -->
+    <section class="contact" id="contact">
+      <h1 class="heading">İletişim</h1>
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12771.11459192347!2d30.74477522380487!3d36.84777698275568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c39b7d60b2993b%3A0x13fab55e3c1db55!2sStarbucks!5e0!3m2!1str!2str!4v1701907568782!5m2!1str!2str"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <form>
+          <h3>Bize Ulaşın</h3>
+          <div class="inputBox">
+            <i class="fas fa-user"></i>
+            <input type="text" placeholder="isim" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-envelope"></i>
+            <input type="email" placeholder="email" />
+          </div>
+          <div class="inputBox">
+            <i class="fas fa-phone"></i>
+            <input type="number" placeholder="numara" />
+          </div>
+          <input type="submit" class="btn" value="Gönder" />
+        </form>
+      </div>
+    </section>
+    <!-- !contact end -->
+    <!-- !blog start -->
+
+    <section class="blog" id="blog">
+      <h1 class="heading">Yazılarımız</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image"><img src="images/blog-1.jpg" alt="blog" /></div>
+          <div class="content">
+            <h3 class="title">Burger Tarihi</h3>
+            <span>by admin/ 15 Eylül 2020</span>
+            <p>
+              1932 yılında Amerikalı John T. Gregore tarafından patenti alınmış
+              olsa da ismini Almanya'nın...
+            </p>
+            <button class="btn">Daha Fazla Oku</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image"><img src="images/blog-2.jpg" alt="blog" /></div>
+          <div class="content">
+            <h3 class="title">Burger Ekmeğinin Doğru Seçimi</h3>
+            <span>by admin/ 20 Kasım 2021</span>
+            <p>
+              Burgerin iç malzemesi kadar kullanılan ekmeğin seçimi de büyük
+              önem taşır.Öyle ki...
+            </p>
+            <button class="btn">Daha Fazla Oku</button>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image"><img src="images/blog-3.jpg" alt="blog" /></div>
+          <div class="content">
+            <h3 class="title">Burger Nasıl Yapılır?</h3>
+            <span>by admin/ 14 Şubat 2022</span>
+            <p>
+              Öncelikle ana malzemesi et türünü doğru seçmek gerekir. Kullanılan
+              k kırmızı et ya da tavuk...
+            </p>
+            <button class="btn">Daha Fazla Oku</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ! blog end -->
+
+    <!--  ! footer start-->
+
+    <section class="footer">
+      <div class="search">
+        <input type="text" class="search-input" placeholder="arama" />
+        <button class="btn btn-search">Arama</button>
+      </div>
+      <div class="share">
+        <a href="" class="fab fa-facebook"></a>
+        <a href="" class="fab fa-twitter"></a>
+        <a href="" class="fab fa-instagram"></a>
+        <a href="" class="fab fa-linkedin"></a>
+        <a href="" class="fab fa-pinterest"></a>
+      </div>
+      <div class="links">
+        <a href="#home" class="active">Ana Sayfa</a>
+        <a href="#menu">Menü</a>
+        <a href="#products">Özel Ürünler</a>
+        <a href="#about">Hakkında</a>
+        <a href="#review">İnceleme</a>
+        <a href="#contact">İletişim</a>
+        <a href="#blog">Bloglar</a>
+      </div>
+      <div class="credit">created by <b>Ebru T.</b> | all rigths reserved</div>
+    </section>
+    <!-- !footer end -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
