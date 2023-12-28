@@ -20,11 +20,8 @@ This project is an example designed for a restaurant's website. The site contain
 ## Responsive Design
 
 You can find gif files used for responsive design in this folder:
-![Desktop View](responsive-rewiev/dekstop.gif)
-- **responsive/mobile.gif**
-- **responsive/tablet.gif**
-- **responsive/special-desktop.gif**
-- **responsive/desktop.gif**
+![Desktop View](images/menu1.jpg)
+
 
 ## Notes
 
